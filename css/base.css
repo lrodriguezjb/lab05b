@@ -1,0 +1,75 @@
+/*
+Mobile breakpoint must be at 768px
+Desktop breakpoint must be 960px
+*/
+
+/* Base styles include setting heading sizes, default link styles, default font styles, and body backgrounds */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  text-align: center;
+  position: relative;
+  top: 45%;
+}
+
+.content-wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  height: 75px;
+}
+
+section,
+article,
+header,
+footer {
+  border: 1px solid #000;
+  /* box-sizing: border-box; */
+}
+
+main #sidebar {
+  /* box-sizing: border-box; */
+}
+
+main #sidebar {
+  height: 150px;
+}
+
+.featured,
+.featured1 {
+  height: 125px;
+}
+
+main .article-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  border: none;
+}
+
+main .article-wrapper article {
+  height: 250px;
+  width: 240px;
+  /* box-sizing: border-box; */
+}
+
+footer {
+  height: 80px;
+}

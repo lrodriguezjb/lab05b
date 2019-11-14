@@ -1,0 +1,46 @@
+/* Breakpoints
+mobile: 768
+tablet: 768-959
+desktop: 960 */
+
+@media (min-width: 960px) {
+  header {
+    height: 100px;
+    width: 960px;
+  }
+
+  main #sidebar {
+    /* display: inline-block; */
+    float: left;
+    height: 600px;
+    width: 200px;
+  }
+
+  .featured-wrapper {
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .featured,
+  .featured1 {
+    width: 380px;
+    height: 200px;
+    box-sizing: border-box;
+  }
+
+  main .article-wrapper {
+    flex-wrap: none;
+  }
+
+  main .article-wrapper article {
+    width: 190px;
+    height: 250px;
+    box-sizing: border-box;
+  }
+
+  footer {
+    height: 150px;
+    width: 760px;
+    margin-left: 200px;
+  }
+}
